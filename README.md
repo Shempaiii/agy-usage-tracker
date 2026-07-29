@@ -1,8 +1,14 @@
-# AGY Usage Tracker
+<div align="center">
+  <img src="logo.png" alt="AGY Usage Tracker Logo" width="128" />
+  <h1>AGY Usage Tracker</h1>
+  <p>A lightweight SwiftBar widget to monitor Antigravity (agy) usage directly from your macOS menu bar.</p>
+</div>
 
-This directory contains a lightweight SwiftBar widget that allows you to monitor your Antigravity (agy) usage directly from your macOS menu bar.
+---
 
-<img src="screenshot.png" alt="AGY Usage Tracker Widget" width="300" />
+<p align="center">
+  <img src="screenshot.png" alt="AGY Usage Tracker Widget" width="300" />
+</p>
 
 ## Features
 - **Auto-Refresh**: The widget automatically updates your usage stats every 30 seconds.
