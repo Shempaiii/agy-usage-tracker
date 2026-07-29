@@ -6,9 +6,17 @@ This directory contains a lightweight SwiftBar widget that allows you to monitor
 
 ## Features
 - **Auto-Refresh**: The widget automatically updates your usage stats every 30 seconds.
-- **Menu Bar View**: Shows your current Gemini usage (e.g., `W: 34% S: 24%`).
-- **Dropdown Details**: Displays comprehensive usage bars, percentages, and session reset times for both **GEMINI** and **CLAUDE & GPT**.
+- **Menu Bar View**: Shows your overall model usage (e.g., `W: 76% S: 9%`).
+- **Dropdown Details**: Displays comprehensive usage bars, percentages, and exact 12-hour refresh times for both **GEMINI** and **CLAUDE & GPT**.
 - **Manual Refresh**: Click `Refresh` in the dropdown to instantly fetch your latest usage data.
+
+## Changelog
+
+### v1.1.0
+- 🚀 **Claude & GPT Support**: Added full support for tracking Claude & GPT model limits (Session & Weekly) alongside Gemini.
+- 🕒 **12-Hour Refresh Clock Times**: Converted relative reset durations to exact local 12-hour timestamps (e.g., `Jul 29, 2:27 PM`).
+- 🐛 **Section-Isolated Parsing Bug Fix**: Fixed a regex cross-section bug where unused model limits would pull reset timers from other model groups.
+- 🎨 **UI Alignment**: Adjusted header spacing between section titles and percentage indicators.
 
 ## Prerequisites
 - **agy must be installed and already logged in** via the terminal (`agy login`).
